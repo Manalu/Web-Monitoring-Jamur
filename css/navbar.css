@@ -1,0 +1,58 @@
+.headerMinimize{
+  display: none;
+}
+.headerMaxsimize{
+  display: block;
+}
+
+ /*Tampilan Mobile S*/
+@media screen and (max-width: 375px) {
+  .headerMaxsimize{
+    display: none;
+  }
+  .headerMinimize{
+    display: block;
+  }
+  a.link{
+    margin-right: 10px;
+  }
+}
+
+/*Tampilan Mobile M*/
+@media screen and (max-width: 375px) {
+  .headerMaxsimize{
+    display: none;
+  }
+  .headerMinimize{
+    display: block;
+  }
+  a.link{
+    margin-right: 10px;
+  }
+}
+
+/*Tampilan Mobile L*/
+@media screen and (max-width: 425px) {
+  .headerMaxsimize{
+    display: none;
+  }
+  .headerMinimize{
+    display: block;
+  }
+  a.link{
+    margin-right: 10px;
+  }
+}
+
+/*Tampilan Tablet*/
+@media screen and (max-width: 768px) {
+  .headerMaxsimize{
+    display: none;
+  }
+  .headerMinimize{
+    display: block;
+  }
+  a.link{
+    margin-right: 10px;
+  }
+}
